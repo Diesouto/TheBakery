@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+@media screen and (max-width: 1000px) {
+    .col-md-6 {
+        flex: 0 0 70%;
+        max-width: 100%;
+    }
+    div {
+        margin: auto;
+    }
+}
