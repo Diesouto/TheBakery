@@ -1,0 +1,30 @@
+
+/*Reescalado imagenes hover*/
+.feature-img img:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:translatZ(0) scale(1.20); /* Opera */
+    transform:translatZ(0) scale(1.20);
+}
+
+/*Transition para formulario búsqueda*/
+.search-form {
+    width: 75%;
+    transition: width 2s;
+  }
+
+.search-form:hover {
+    width: 100%;
+}
+
+/*Estilos canvas*/
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
